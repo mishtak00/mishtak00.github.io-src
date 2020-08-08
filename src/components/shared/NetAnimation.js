@@ -19,12 +19,12 @@ export default class NetAnimation extends React.Component {
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
-      scaleMobile: 1.00,
+      scaleMobile: 0.50,
       color: 0x0,
       backgroundColor: 0xffffff,
-      points: 20.0,
-      spacing: 17.0,
-      maxDistance: 21.00
+      points: 15.0,
+      maxDistance: 23.00,
+      spacing: 20.0
     })
   }
   componentWillUnmount() {
