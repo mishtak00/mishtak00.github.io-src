@@ -25,7 +25,7 @@ let projects = [
         desc: 'My personal portfolio website made entirely with React and Material-UI.',
         img: This,
         hasSrc: true,
-        src: 'https://github.com/mishtak00/mishtak00.github.io'
+        src: 'https://github.com/mishtak00/mishtak00.github.io-src'
     },
     {
         title: 'CenterFinder',
