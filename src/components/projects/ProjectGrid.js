@@ -145,7 +145,7 @@ let projects = [
 
 const gridItemStyles = makeStyles((theme) => ({
     gridItem: {
-        maxWidth: 340, 
+        maxWidth: 340,
         marginBottom: theme.spacing(3)
     },
     gridItemBottom: {
@@ -183,7 +183,7 @@ export default function ProjectGrid() {
 
     projects.forEach((project, i) => {
         gridCols[i % gridCols.length].push(
-            <Grid key={i} item xs={12} 
+            <Grid key={i} item xs={12} align='left'
             className={i<bottomStartIndex ? classes.gridItem : classes.gridItemBottom}>
                 <ImgMediaCard content={project} />
             </Grid>
@@ -236,10 +236,10 @@ export default function ProjectGrid() {
                     </Grid>
                 </Grid>
 
-                <Grid container justify='center' spacing={3} style={{width: '100vw', marginTop: 50}}>
-                {gridCols.map((column, i) => (
-                    <Grid key={i} item> {column} </Grid>
-                ))}
+                <Grid container justify='center' spacing={3} style={{width: '100vw', marginTop: 50, maxWidth: 1450}}>
+                    {gridCols.map((column, i) => (
+                        <Grid key={i} item xs={12} md={3} align='center'> {column} </Grid>
+                    ))}
                 </Grid>
                 
                 

@@ -33,7 +33,7 @@ const Navbar = ((pos) => {
 					</Box>
 					<Box>
 						<Button component={Link} to={'/about-me'}>
-							<Typography>About me</Typography>
+							<Typography>About</Typography>
 						</Button>
 						<Button component={Link} to={'/projects'}>
 							<Typography>Projects</Typography>

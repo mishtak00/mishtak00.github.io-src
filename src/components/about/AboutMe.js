@@ -63,7 +63,7 @@ let free2 =
 `
 I also love to travel around, especially to places with beautiful beaches. If I’d have to choose an environment 
 to spend the rest of my life in, it would definitely be a beach or somewhere very near it. Some of my favorite 
-books of all time are The Alchemist, The Richest Man in Babylon, and the Hebrew Bible ;)
+books of all time are The Alchemist, The Richest Man in Babylon, and the Hebrew Bible.
 `;
 let free3 = 
 `
