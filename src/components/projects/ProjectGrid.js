@@ -29,13 +29,16 @@ let projects = [
     },
     {
         title: 'CenterFinder',
-        desc: 'Open-source Python package for astronomy research. Scientific publication \
-        of principal use case is coming soon. Implements grid-distributed operations, \
-        logic optimizations, and parallelized processes and achieves better than O(N) \
-        runtime for very large galactic surveys.',
+        desc: 'Open-source Python package for astronomy research. Pushes state-of-\
+        the-art in the detection of cosmic objects named BAO. Achieves better than O(N^5) \
+        runtime as opposed to the usual O(N^n) for the computation of an isotropic \
+        n-point correlation function over large galactic surveys.',
         img: CenterFinder,
         hasSrc: true,
-        src: 'https://github.com/mishtak00/centerfinder'
+        src: 'https://github.com/mishtak00/centerfinder',
+        hasOther: true,
+        otherName: 'Publication',
+        otherSrc: 'https://arxiv.org/abs/2008.12793'
     },
     {
         title: 'Efficient Two-Point Correlator',
